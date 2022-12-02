@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 13948615}
   m_Layer: 0
   m_Name: GameController
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,13 +154,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 1
-  winSpot: {fileID: 1667699988}
-  player: {fileID: 475420904}
   checkPoints:
   - {fileID: 1686397910}
   - {fileID: 1224745338}
+  finalLevel: 2
   song: {fileID: 8300000, guid: 7d12070c61bb26a4a98654ac950da75a, type: 3}
-  isFinal: 0
 --- !u!4 &13948614
 Transform:
   m_ObjectHideFlags: 0
@@ -3063,7 +3061,7 @@ GameObject:
   - component: {fileID: 1667699989}
   - component: {fileID: 1667699991}
   m_Layer: 0
-  m_Name: Win_Signal
+  m_Name: Win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
